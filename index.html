@@ -23,14 +23,5 @@
     </main>
     <footer>
         <p>created by Raghav</p>
-        <p id="timestamp"></p>
     </footer>
 </body>
-<script>
-    const now = new Date();
-
-    const date = now.toLocaleDateString();
-    const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-
-    document.getElementById('timestamp').innerText = `Updated at ${time} on ${date}`;
-</script>
