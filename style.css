@@ -1,5 +1,19 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.page-container {
+  width: 100vw;       /* 100% of the Viewport Width */
+  height: 100vh;      /* 100% of the Viewport Height */
+  
+  overflow: hidden;   /* The "Lock": Clips any content that tries to scroll */
+  
+  display: flex;      /* Optional: Helps center your Photoshop layout */
+  flex-direction: column;
+  
+  background-image: url('your-bg.webp');
+  background-size: cover;
+  background-position: center;
+}
+body {
+    background-image: url('bg_main.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
