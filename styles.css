@@ -1,14 +1,14 @@
 /* The Main Heading - Heavy and Bold */
 h1 {
-  font-family: "Cascadia Mono", sans-serif;
+  font-family: "Cascadia Mono", monospace;
   font-weight: 700;    /* Extra Bold */
   font-size: 40px;
 }
 
 /* The Paragraph - Light and Clean */
 p {
-  font-family: "Cascadia Mono", sans-serif;
+  font-family: "Cascadia Mono", monospace;
   font-weight: 200;    /* Light / Thin */
-  font-size: 18px;
   font-style: italic;
+  font-size: 18px;
 }
