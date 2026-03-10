@@ -2,13 +2,13 @@
 h1 {
   font-family: "Cascadia Mono", monospace;
   font-weight: 700;    /* Extra Bold */
-  font-size: 40px;
+  font-size: 144;
 }
 
 /* The Paragraph - Light and Clean */
 p {
   font-family: "Cascadia Mono", monospace;
-  font-weight: 200;    /* Light / Thin */
+  font-weight: 400;    /* Light / Thin */
   font-style: italic;
-  font-size: 18px;
+  font-size: 8px;
 }
